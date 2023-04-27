@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,800;1,100;1,300;1,500&family=Roboto:ital,wght@0,100;1,100;1,400;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background-image: url(imagem/mg.bmp);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;  
+}
+
+.background2{
+    background-color: #af1c1c;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 45px;
+    padding: 0px 40px;
+    justify-content: space-between;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight:300;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.cabeçalho-link a{
+    color: #af1c1c;
+    font-size: 16px;
+}
+
+.cabeçalho-link a:hover{
+    background-color: #af1c1c;
+    color: #000000;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #af1c1c;
+    color: #af1c1c;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logo i:hover{
+    background-color: #af1c1c;
+    color: #000000;
+    transition: 0.5s;
+}
+
+button{
+    color: #af1c1c;
+    background: transparent;
+    border: solid #af1c1c;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 10.5px;
+    width: 150px;
+    padding: 0px 40px 0px;
+}
+
+button:hover{
+    background-color: #af1c1c;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0px 0px 0px;
+}
+
+.text h1{
+    color:#000000;
+    margin-top: 10px;
+    padding: 0px 80px 0px;
+}
+
+.text-h2{
+    color:white;
+}
+.text span{
+    color:#af1c1c
+}
+
+.text h3{
+    color:#000000;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 0px 80px 0px;
+}
+
+.redes-sociais a{
+    color:#af1c1c;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.redes-sociais a:hover{
+    background-color: #af1c1c;
+    color: #000000;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding: 10px;
+
+}
